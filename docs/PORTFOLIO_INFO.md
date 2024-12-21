@@ -8,3 +8,7 @@ Index - homepage for navigation to other parts of the website
 Projects - Use a drop down menu to select from a list of personal projects to view
 
 BIO - have a page to show links to instagram and linkedIn, like a contact page
+
+
+Hi dad
+
