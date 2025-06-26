@@ -21,10 +21,9 @@
 title: Adam Turner
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my world. I am an electrical/computer engineer, 
-  software developer, entrenpeneur and salesman. Check out my 
-  porfolio to see the work I have done, and reach out to me 
-  if you would like to talk.
+  Welcome to my world. I am an electrical/computer engineer, software developer, 
+  entrenpeneur and salesman. Check out my porfolio to see the work I have done, 
+  and reach out to me if you would like to talk.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "adamdturner.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
