@@ -73,7 +73,7 @@ permalink: /contact/
       </div>
       
       <!-- Hidden field to help with spam prevention -->
-      <input type="hidden" name="_next" value="{{ site.url }}{{ '/contact/' | relative_url }}?success=true">
+      <input type="hidden" name="_next" value="https://adamdturner.github.io/contact/?success=true">
       <input type="hidden" name="_subject" value="New Contact Form Submission">
       
       <button type="submit" class="btn btn-primary">Send Message</button>
