@@ -21,13 +21,19 @@
 title: Adam Turner
 email: adamdturner00@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Check out my porfolio to see the work I have done, 
-  reach out to me if you would like to talk.
+  Software Developer & Engineer | Passionate about creating innovative solutions
+  and building meaningful projects. Explore my portfolio to see my work.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "adamdturner.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://adamdturner.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 instagram_username: adamdturner_
-github_username:  adamdturner
+github_username: adamdturner
+linkedin_username: adam-turner-dev
+
+# Custom variables
+tagline: "Software Developer & Engineer"
+location: "United States"
+resume_url: "/assets/resume.pdf"
 
 # Build settings
 theme: minima

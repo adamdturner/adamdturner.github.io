@@ -2,11 +2,58 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
-<p><em>{{ page.date | date: "%B %d, %Y" }}</em></p>
-{% if page.description %}
-<p>{{ page.description }}</p>
-{% endif %}
+<div class="project-header">
+  <h1>{{ page.title }}</h1>
+  
+  <div class="project-meta">
+    {% if page.date %}
+    <div class="meta-item">
+      <strong>Date:</strong> {{ page.date | date: "%B %d, %Y" }}
+    </div>
+    {% endif %}
+    {% if page.duration %}
+    <div class="meta-item">
+      <strong>Duration:</strong> {{ page.duration }}
+    </div>
+    {% endif %}
+    {% if page.role %}
+    <div class="meta-item">
+      <strong>Role:</strong> {{ page.role }}
+    </div>
+    {% endif %}
+    {% if page.status %}
+    <div class="meta-item">
+      <strong>Status:</strong> {{ page.status }}
+    </div>
+    {% endif %}
+  </div>
+
+  {% if page.description %}
+  <p class="project-description">{{ page.description }}</p>
+  {% endif %}
+
+  {% if page.technologies %}
+  <div class="project-tech">
+    {% for tech in page.technologies %}
+      <span class="tech-tag">{{ tech }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if page.github_url or page.live_url or page.demo_url %}
+  <div class="project-links">
+    {% if page.github_url %}
+    <a href="{{ page.github_url }}" class="project-link" target="_blank">View on GitHub</a>
+    {% endif %}
+    {% if page.live_url %}
+    <a href="{{ page.live_url }}" class="project-link" target="_blank">Live Demo</a>
+    {% endif %}
+    {% if page.demo_url %}
+    <a href="{{ page.demo_url }}" class="project-link" target="_blank">Watch Demo</a>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>
 
 <div class="project-content">
   {{ content }}
