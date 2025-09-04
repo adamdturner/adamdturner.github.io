@@ -51,7 +51,7 @@ permalink: /contact/
     <h2>Send Me a Message</h2>
     <p>Have a project in mind or want to discuss an opportunity? Fill out the form below and I'll get back to you as soon as possible.</p>
     
-    <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <form class="contact-form" action="https://formspree.io/f/xdklpeae" method="POST" id="contactForm">
       <div class="form-group">
         <label for="name">Name *</label>
         <input type="text" id="name" name="name" required>
@@ -72,8 +72,16 @@ permalink: /contact/
         <textarea id="message" name="message" rows="6" required></textarea>
       </div>
       
+      <!-- Hidden field to help with spam prevention -->
+      <input type="hidden" name="_next" value="{{ site.url }}{{ '/contact/' | relative_url }}?success=true">
+      <input type="hidden" name="_subject" value="New Contact Form Submission">
+      
       <button type="submit" class="btn btn-primary">Send Message</button>
     </form>
+    
+    <div class="form-alternative">
+      <p><strong>Alternative:</strong> You can also email me directly at <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    </div>
   </div>
 
   <!-- Social Media Links -->
@@ -102,3 +110,47 @@ permalink: /contact/
     <p>I typically respond to messages within 24 hours during business days. For urgent matters, please mention it in your message subject line.</p>
   </div>
 </div>
+
+<script>
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+  const button = document.querySelector('#contactForm button[type="submit"]');
+  const originalText = button.textContent;
+  
+  // Show loading state
+  button.textContent = 'Sending...';
+  button.disabled = true;
+  button.style.backgroundColor = '#6b7280';
+  
+  // Check if this is a success redirect
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.get('success') === 'true') {
+    showSuccessMessage();
+  }
+});
+
+function showSuccessMessage() {
+  const form = document.getElementById('contactForm');
+  const successDiv = document.createElement('div');
+  successDiv.className = 'form-success';
+  successDiv.innerHTML = `
+    <div class="success-content">
+      <h3>✅ Message Sent Successfully!</h3>
+      <p>Thank you for your message. I'll get back to you within 24 hours.</p>
+    </div>
+  `;
+  
+  form.parentNode.insertBefore(successDiv, form);
+  form.style.display = 'none';
+  
+  // Scroll to success message
+  successDiv.scrollIntoView({ behavior: 'smooth' });
+}
+
+// Show success message if redirected from Formspree
+window.addEventListener('load', function() {
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.get('success') === 'true') {
+    showSuccessMessage();
+  }
+});
+</script>

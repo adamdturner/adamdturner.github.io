@@ -806,6 +806,52 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.form-alternative {
+  background: var(--background-alt);
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  margin-top: 2rem;
+  text-align: center;
+  border: 1px solid var(--border-color);
+}
+
+.form-alternative p {
+  margin: 0;
+  color: var(--text-secondary);
+}
+
+.form-alternative a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.form-alternative a:hover {
+  text-decoration: underline;
+}
+
+.form-success {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: var(--border-radius-lg);
+  margin: 2rem 0;
+  text-align: center;
+  box-shadow: var(--shadow-lg);
+}
+
+.success-content h3 {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.success-content p {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+  font-size: 1.1rem;
+}
+
 /* Experience timeline styles */
 .experience-content {
   max-width: 1000px;
