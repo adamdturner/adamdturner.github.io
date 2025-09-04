@@ -44,7 +44,7 @@ permalink: /about/
     <p>I'm always interested in new opportunities, collaborations, and interesting projects. Whether you have a question about my work, want to discuss a potential project, or just want to say hello, I'd love to hear from you!</p>
     
     <div class="cta-buttons">
-      <a href="mailto:{{ site.email }}" class="btn btn-primary">Get In Touch</a>
+      <a href="{{ '/contact/' | relative_url }}" class="btn btn-primary">Get In Touch</a>
       <a href="{{ '/projects/' | relative_url }}" class="btn btn-secondary">View My Work</a>
     </div>
   </div>
