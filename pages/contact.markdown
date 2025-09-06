@@ -91,14 +91,14 @@ permalink: /contact/
     
     <div class="social-links">
       <a href="https://github.com/{{ site.github_username }}" class="social-link" target="_blank">
-        <span>🐙</span> GitHub
+        <span>-</span> GitHub
       </a>
       <a href="https://linkedin.com/in/{{ site.linkedin_username }}" class="social-link" target="_blank">
-        <span>💼</span> LinkedIn
+        <span>-</span> LinkedIn
       </a>
       {% if site.instagram_username %}
       <a href="https://instagram.com/{{ site.instagram_username }}" class="social-link" target="_blank">
-        <span>📷</span> Instagram
+        <span>-</span> Instagram
       </a>
       {% endif %}
     </div>

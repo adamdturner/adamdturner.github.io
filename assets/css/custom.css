@@ -852,6 +852,12 @@ body {
   font-size: 1.1rem;
 }
 
+/* Ensure social button text stays white, even when visited */
+.social-link:link,
+.social-link:visited {
+  color: white;
+}
+
 /* Experience timeline styles */
 .experience-content {
   max-width: 1000px;
