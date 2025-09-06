@@ -109,14 +109,7 @@ permalink: /projects/
         <h3>Web Development</h3>
         <p>Full-stack web applications with modern frameworks and technologies</p>
         <div class="category-stats">
-          <span>5 Projects</span>
-        </div>
-      </div>
-      <div class="category-card">
-        <h3>Machine Learning</h3>
-        <p>AI and ML projects including computer vision and data analysis</p>
-        <div class="category-stats">
-          <span>3 Projects</span>
+          <span>1 Project</span>
         </div>
       </div>
       <div class="category-card">
@@ -130,7 +123,7 @@ permalink: /projects/
         <h3>Hardware & IoT</h3>
         <p>Embedded systems, robotics, and Internet of Things projects</p>
         <div class="category-stats">
-          <span>2 Projects</span>
+          <span>5 Projects</span>
         </div>
       </div>
     </div>
