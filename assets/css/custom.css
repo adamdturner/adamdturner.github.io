@@ -161,6 +161,13 @@ body {
   box-shadow: var(--shadow-lg);
 }
 
+/* Object position utilities for profile image crop control */
+.object-center { object-position: center center; }
+.object-top { object-position: center top; }
+.object-bottom { object-position: center bottom; }
+.object-left { object-position: left center; }
+.object-right { object-position: right center; }
+
 /* Skills page improvements */
 .skills-grid {
   display: grid;
