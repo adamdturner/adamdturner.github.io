@@ -19,7 +19,7 @@ permalink: /about/
   <!-- Background Section -->
   <div class="about-section">
     <h2>Background & Education</h2>
-    <p>I have a strong educational foundation in computer science and engineering, with hands-on experience in software development, system design, and project management. My academic background has provided me with a solid understanding of algorithms, data structures, scalable design, and other engineering principles.</p>
+    <p>I have a strong educational foundation in computer science and engineering, with hands-on experience in software development, system design, and project management. My academic background has provided me with a solid understanding of algorithms, data structures, scalable software design, and other engineering principles.</p>
     
     <p>Throughout my schooling and career, I've worked on diverse projects ranging from web applications and mobile apps to embedded systems. This variety has given me a well-rounded perspective on software development and integration with physical devices.</p>
   </div>

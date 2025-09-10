@@ -5,7 +5,7 @@ date: 2025-08-01 09:00:00 -0600
 description: "A personal mobile app project called Anchor, focused on productivity and goal tracking."
 duration: "Ongoing"
 role: "Solo Developer"
-status: "In Progress"
+status: "Ongoing"
 technologies: ["Mobile", "UI/UX", "Flutter/Firebase"]
 ---
 
