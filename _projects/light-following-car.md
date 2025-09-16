@@ -6,6 +6,7 @@ description: "An Arduino C++ sophomore project: a car that detects and follows l
 duration: "4 months"
 role: "Student"
 status: "Completed"
+image: "/assets/images/projects/light-following-car.jpg"
 technologies: ["Arduino", "C++", "Photoresistors", "Motor Driver", "PWM"]
 ---
 

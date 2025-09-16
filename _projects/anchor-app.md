@@ -6,6 +6,7 @@ description: "A personal mobile app project called Anchor, focused on productivi
 duration: "Ongoing"
 role: "Solo Developer"
 status: "Ongoing"
+image: "/assets/images/projects/anchor-app.jpg"
 technologies: ["Mobile", "UI/UX", "Flutter/Firebase"]
 ---
 

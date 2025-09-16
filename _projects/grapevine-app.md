@@ -7,6 +7,7 @@ duration: "5 months"
 role: "Contract Mobile Developer"
 status: "Ongoing"
 featured: true
+image: "/assets/images/projects/grapevine-app.jpg"
 technologies: ["Flutter", "Dart", "Firebase", "Cloud Firestore", "Firebase Auth", "Cloud Functions"]
 ---
 

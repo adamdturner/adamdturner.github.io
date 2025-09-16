@@ -6,6 +6,7 @@ description: "Classic Snake implemented in C on ESP32 with a simple display."
 duration: "4 months"
 role: "Student"
 status: "Completed"
+image: "/assets/images/projects/esp32-snake.jpg"
 technologies: ["ESP32", "C", "Game Loop"]
 ---
 

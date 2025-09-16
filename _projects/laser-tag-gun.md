@@ -6,6 +6,7 @@ description: "Laser Tag development from scratch."
 duration: "8 months"
 role: "Student"
 status: "Completed"
+image: "/assets/images/projects/laser-tag.jpg"
 technologies: ["ESP32", "C", "Signal Filtering", "PCB design"]
 ---
 

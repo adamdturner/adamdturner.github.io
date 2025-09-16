@@ -7,6 +7,7 @@ duration: "Worked on it in my free time"
 role: "Hobbyist"
 status: "Ongoing"
 featured: true
+image: "/assets/images/projects/fpv-drone.jpg"
 technologies: ["FPV", "Betaflight", "BLHeli", "Soldering"]
 ---
 

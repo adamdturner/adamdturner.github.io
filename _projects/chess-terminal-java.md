@@ -6,6 +6,7 @@ description: "A Java terminal chess game with full rules and move validation."
 duration: "4 months"
 role: "Student"
 status: "Completed"
+image: "/assets/images/projects/chess-terminal.jpg"
 technologies: ["Java", "SQL", "CLI"]
 ---
 

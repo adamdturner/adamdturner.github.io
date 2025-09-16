@@ -6,6 +6,7 @@ description: "Companion mobile app and embedded firmware for a smart sauna contr
 duration: "12 weeks"
 role: "Embedded + App Developer"
 status: "Ongoing"
+image: "/assets/images/projects/homecraft-sauna.jpg"
 technologies: ["ESP32", "C", "Mobile App", "Flutter/Firebase", "Sensors"]
 ---
 

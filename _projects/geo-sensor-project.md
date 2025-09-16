@@ -6,6 +6,7 @@ description: "Arduino C++ data collection and sensor fusion for a geoscience cla
 duration: "8 months"
 role: "Embedded Developer"
 status: "Completed"
+image: "/assets/images/projects/geo-sensor.jpg"
 technologies: ["Arduino", "C++", "Sensors", "Data Logging"]
 ---
 
