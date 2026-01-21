@@ -31,6 +31,7 @@ permalink: /skills/
         <span class="skill-tag">HTML</span>
         <span class="skill-tag">CSS</span>
         <span class="skill-tag">Dart</span>
+        <span class="skill-tag">Javascript</span>
       </div>
     </div>
 
@@ -50,6 +51,7 @@ permalink: /skills/
       <div class="skill-tags">
         <span class="skill-tag">MySQL</span>
         <span class="skill-tag">MongoDB</span>
+        <span class="skill-tag">DynamoDB</span>
         <span class="skill-tag">Firebase</span>
       </div>
     </div>
@@ -67,7 +69,6 @@ permalink: /skills/
     <div class="skill-category">
       <h3>Mobile Development</h3>
       <div class="skill-tags">
-        <span class="skill-tag">React Native</span>
         <span class="skill-tag">Flutter</span>
       </div>
     </div>
@@ -79,8 +80,7 @@ permalink: /skills/
         <span class="skill-tag">Git</span>
         <span class="skill-tag">GitHub</span>
         <span class="skill-tag">VS Code</span>
-        <span class="skill-tag">IntelliJ IDEA</span>
-        <span class="skill-tag">Slack</span>
+        <span class="skill-tag">Cursor AI</span>
       </div>
     </div>
 
@@ -133,7 +133,7 @@ permalink: /skills/
   <!-- Certifications Section -->
   <div class="about-section mt-4">
     <h2>Certifications & Education</h2>
-    <p>Here are any certifications or education I have</p>
+    <p>Here are any certifications or education I have:</p>
     
     <ul>
       <li><strong>Bachelors Degree</strong> - Electrical/Computer Engineering</li>

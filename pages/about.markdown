@@ -11,9 +11,9 @@ permalink: /about/
   <!-- Introduction Section -->
   <div class="about-section">
     <h2>Hello, I'm Adam Turner</h2>
-    <p>I'm am a senior at BYU studying computer engineering, with a strong interest in software projects as well. I have a foundation in computer science and have hands-on experience in various technologies, helping me to tackle complex problems.</p>
+    <p>I'm am a senior at BYU studying computer engineering, with a strong interest and experience in software projects as well. I have a foundation in computer science and have hands-on experience in various technologies, helping me to tackle complex problems.</p>
     
-    <p>I am an engineering sub-contractor, with experience and interest in developing technnologies that make people's lives easier, whether that be in the form of physical devices or in the form of software applications.</p>
+    <p>I am an engineering sub-contractor, with experience and interest in developing technnologies that make people's lives easier, whether that be in the form of physical devices or in the form of software applications. I consult with small businesses to provide technological solutions and make their ideas come to life.</p>
   </div>
 
   <!-- Background Section -->
@@ -21,7 +21,7 @@ permalink: /about/
     <h2>Background & Education</h2>
     <p>I have a strong educational foundation in computer science and engineering, with hands-on experience in software development, system design, and project management. My academic background has provided me with a solid understanding of algorithms, data structures, scalable software design, and other engineering principles.</p>
     
-    <p>Throughout my schooling and career, I've worked on diverse projects ranging from web applications and mobile apps to embedded systems. This variety has given me a well-rounded perspective on software development and integration with physical devices.</p>
+    <p>Throughout my schooling and career, I've worked on diverse projects ranging from web applications and mobile apps to embedded systems on esp32 or arduino. This variety has given me a well-rounded view of the software development process and integration with physical devices.</p>
   </div>
 
   <!-- Skills & Expertise -->
@@ -33,7 +33,7 @@ permalink: /about/
       <li><strong>Web Development:</strong> Building responsive, user-friendly web applications</li>
       <li><strong>Mobile Development:</strong> Creating cross-platform mobile applications that provide seamless user experiences</li>
       <li><strong>Backend Development:</strong> Designing and implementing robust server-side solutions and APIs</li>
-      <li><strong>Database Design:</strong> Working with SQL, MongoDB, and Google Firestore databases for data storage and retrieval</li>
+      <li><strong>Database Design:</strong> Working with DynamoDB, MongoDB, and Google Firestore databases for data storage and retrieval</li>
       <li><strong>Embedded Programming:</strong> Working with IOT systems involving ESP32 and Arduino, and integrating them with mobile/web applications</li>
     </ul>
   </div>
@@ -67,15 +67,15 @@ permalink: /about/
       <div class="personal-category">
         <h3>Personal Achievements</h3>
         <ul>
-          <li><strong>Marathon:</strong> Completed a full marathon in June this year</li>
-          <li><strong>Language Learning:</strong> Conversational in French, currently learning Spanish through personal practice</li>
+          <li><strong>Marathon:</strong> Completed a full marathon in June 2025</li>
+          <li><strong>Language Learning:</strong> Conversational in French, currently learning Spanish through personal study</li>
         </ul>
       </div>
 
       <div class="personal-category">
         <h3>Side Projects</h3>
         <ul>
-          <li><strong>Goal Tracking:</strong> Custom app for tracking habits, goals, workouts, reading etc.</li>
+          <li><strong>MCP and AI tools:</strong> Currently learning how to build MCP servers and other tools for more efficient software development using AI.</li>
         </ul>
       </div>
 

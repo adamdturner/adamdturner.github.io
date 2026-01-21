@@ -11,32 +11,32 @@ permalink: /contact/
   <!-- Contact Information Cards -->
   <div class="contact-info">
     <div class="contact-card">
-      <h3>📧 Email</h3>
+      <h3>Email</h3>
       <a href="mailto:{{ site.email }}">{{ site.email }}</a>
       <p>Send me an email and I'll get back to you within 24 hours.</p>
     </div>
     
     <div class="contact-card">
-      <h3>💼 LinkedIn</h3>
+      <h3>LinkedIn</h3>
       <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">linkedin.com/in/{{ site.linkedin_username }}</a>
       <p>Connect with me professionally and see my career updates.</p>
     </div>
     
     <div class="contact-card">
-      <h3>🐙 GitHub</h3>
+      <h3>GitHub</h3>
       <a href="https://github.com/{{ site.github_username }}" target="_blank">github.com/{{ site.github_username }}</a>
       <p>Check out my code repositories and contributions.</p>
     </div>
     
     <div class="contact-card">
-      <h3>📍 Location</h3>
+      <h3>Location</h3>
       <span>{{ site.location }}</span>
       <p>Available for remote work and local opportunities.</p>
     </div>
   </div>
 
   <!-- Resume Download Section -->
-  <div class="resume-section">
+  <!-- <div class="resume-section">
     <h2>Download Resume</h2>
     <p>Get a PDF copy of my resume with complete details about my experience, skills, and achievements.</p>
     <div class="cta-buttons">
@@ -44,12 +44,12 @@ permalink: /contact/
         📄 Download PDF Resume
       </a>
     </div>
-  </div>
+  </div> -->
 
   <!-- Contact Form Section -->
   <div class="contact-form-section">
     <h2>Send Me a Message</h2>
-    <p>Have a project in mind or want to discuss an opportunity? Fill out the form below and I'll get back to you as soon as possible.</p>
+    <p>Have a project in mind or want to discuss an opportunity or request my resume? Fill out the form below and I'll get back to you as soon as possible.</p>
     
     <form class="contact-form" action="https://formspree.io/f/xdklpeae" method="POST" id="contactForm">
       <div class="form-group">
