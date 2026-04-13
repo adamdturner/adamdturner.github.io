@@ -414,6 +414,32 @@ body {
   z-index: 10;
 }
 
+.experience-preview-note {
+  margin-top: 0.75rem;
+  max-width: 36rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.skills-architecture-diagram {
+  overflow-x: auto;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  padding: 1rem;
+  background: var(--background-alt);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-color);
+  margin: 0;
+}
+
+.skills-architecture-diagram code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  color: var(--text-primary);
+}
+
 /* Project categories */
 .categories-grid {
   display: grid;

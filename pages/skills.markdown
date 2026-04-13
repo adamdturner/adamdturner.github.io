@@ -28,10 +28,12 @@ permalink: /skills/
       <h3>Frontend Development</h3>
       <div class="skill-tags">
         <span class="skill-tag">React</span>
+        <span class="skill-tag">Next.js</span>
+        <span class="skill-tag">TanStack Query</span>
         <span class="skill-tag">HTML</span>
         <span class="skill-tag">CSS</span>
         <span class="skill-tag">Dart</span>
-        <span class="skill-tag">Javascript</span>
+        <span class="skill-tag">JavaScript</span>
       </div>
     </div>
 
@@ -40,8 +42,10 @@ permalink: /skills/
       <h3>Backend Development</h3>
       <div class="skill-tags">
         <span class="skill-tag">Node.js</span>
+        <span class="skill-tag">Next.js API Routes</span>
         <span class="skill-tag">Dart</span>
         <span class="skill-tag">REST APIs</span>
+        <span class="skill-tag">Layered architecture</span>
       </div>
     </div>
 
@@ -53,6 +57,8 @@ permalink: /skills/
         <span class="skill-tag">MongoDB</span>
         <span class="skill-tag">DynamoDB</span>
         <span class="skill-tag">Firebase</span>
+        <span class="skill-tag">Cloud Firestore</span>
+        <span class="skill-tag">Firebase Admin SDK</span>
       </div>
     </div>
 
@@ -60,6 +66,7 @@ permalink: /skills/
     <div class="skill-category">
       <h3>Cloud & DevOps</h3>
       <div class="skill-tags">
+        <span class="skill-tag">Vercel</span>
         <span class="skill-tag">AWS</span>
         <span class="skill-tag">Google Cloud</span>
       </div>
@@ -95,6 +102,25 @@ permalink: /skills/
     </div>
   </div>
 
+  <!-- Full-stack web (Grapevine) -->
+  <div class="about-section mt-4">
+    <h2>Full-stack web — production architecture</h2>
+    <p>For Grapevine’s web application I deploy on <strong>Vercel</strong> and structure the codebase so the UI never talks to the database directly: React components call TanStack Query hooks, which use a shared HTTP client (with auth token injection) against <strong>Next.js API routes</strong>. Routes delegate to use cases (validation and business rules), and <strong>repositories are the only layer that use Firestore</strong>, via the Firebase Admin SDK.</p>
+    <pre class="skills-architecture-diagram"><code>│  UI Layer (React Components)        │  ← Never touches database
+├─────────────────────────────────────┤
+│  Feature Hooks (TanStack Query)     │  ← State management
+├─────────────────────────────────────┤
+│  HTTP Client (apiFetch)             │  ← Auth token injection
+├─────────────────────────────────────┤
+│  API Routes (Next.js)               │  ← API boundary
+├─────────────────────────────────────┤
+│  Use Cases (Business Logic)         │  ← Validation & rules
+├─────────────────────────────────────┤
+│  Repositories (Data Access)         │  ← ONLY place with Firestore
+├─────────────────────────────────────┤
+│  Firestore (Database)               │  ← Firebase Admin SDK</code></pre>
+  </div>
+
   <!-- Experience Level Section -->
   <div class="about-section mt-4">
     <h2>Experience Levels</h2>
@@ -117,6 +143,10 @@ permalink: /skills/
         <div class="skill-tags">
           <span class="skill-tag">TypeScript</span>
           <span class="skill-tag">Python</span>
+          <span class="skill-tag">Next.js</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">TanStack Query</span>
+          <span class="skill-tag">Vercel</span>
         </div>
       </div>
       

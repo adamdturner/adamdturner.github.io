@@ -30,7 +30,7 @@ permalink: /about/
     <p>I specialize in full-stack development with expertise in both frontend and backend technologies. My experience includes:</p>
     
     <ul>
-      <li><strong>Web Development:</strong> Building responsive, user-friendly web applications</li>
+      <li><strong>Web Development:</strong> Building responsive web apps with React and Next.js, deploying production workloads to Vercel, and structuring full-stack code with clear boundaries (e.g. API routes, use cases, and data access layers over Firestore)</li>
       <li><strong>Mobile Development:</strong> Creating cross-platform mobile applications that provide seamless user experiences</li>
       <li><strong>Backend Development:</strong> Designing and implementing robust server-side solutions and APIs</li>
       <li><strong>Database Design:</strong> Working with DynamoDB, MongoDB, and Google Firestore databases for data storage and retrieval</li>

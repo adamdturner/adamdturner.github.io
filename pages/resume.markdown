@@ -25,7 +25,7 @@ permalink: /resume/
   <!-- Professional Summary -->
   <div class="about-section">
     <h2>Professional Summary</h2>
-    <p>Passionate software developer with 3+ years of experience in full-stack development, machine learning, and system design. Proven track record of delivering high-quality solutions and leading technical projects from conception to deployment.</p>
+    <p>Passionate software developer with 3+ years of experience in full-stack development, machine learning, and system design—including production web apps on <strong>Vercel</strong> (Next.js, React, TanStack Query) with Firebase/Firestore and a layered server architecture. Proven track record of delivering high-quality solutions and leading technical projects from conception to deployment.</p>
     
     <div class="summary-highlights">
       <div class="highlight-item">
@@ -53,15 +53,15 @@ permalink: /resume/
       </div>
       <div class="skill-group">
         <h3>Web Technologies</h3>
-        <p>React, Vue.js, Node.js, Express, Django, Flask</p>
+        <p>React, Next.js, TanStack Query, Node.js, Express, Vue.js, Django, Flask</p>
       </div>
       <div class="skill-group">
         <h3>Databases</h3>
-        <p>PostgreSQL, MongoDB, Redis, MySQL</p>
+        <p>PostgreSQL, MongoDB, Redis, MySQL, Cloud Firestore (Firebase Admin SDK)</p>
       </div>
       <div class="skill-group">
         <h3>Cloud & DevOps</h3>
-        <p>AWS, Docker, Kubernetes, CI/CD, Linux</p>
+        <p>Vercel, AWS, Docker, Kubernetes, CI/CD, Linux</p>
       </div>
       <div class="skill-group">
         <h3>Machine Learning</h3>

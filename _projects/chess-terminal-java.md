@@ -1,5 +1,6 @@
 ---
 layout: project
+hide_from_projects_page: true
 title: "Chess in the Terminal"
 date: 2023-09-01 10:00:00 -0600
 description: "A Java terminal chess game with full rules and move validation."

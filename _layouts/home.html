@@ -20,7 +20,7 @@ layout: default
     <div class="wrapper">
       <h2 class="text-center mb-4">Featured Projects</h2>
       <div class="projects-grid">
-        {% assign featured_projects = site.projects | where: "featured", true | limit: 3 %}
+        {% assign featured_projects = site.projects | where: "featured", true | where_exp: "project", "project.hide_from_projects_page != true" | limit: 3 %}
         {% for project in featured_projects %}
           <div class="project-card">
             {% if project.image %}
@@ -79,15 +79,17 @@ layout: default
           <h3>Web Technologies</h3>
           <div class="skill-tags">
             <span class="skill-tag">React</span>
-            <span class="skill-tag">NextJS</span>
+            <span class="skill-tag">Next.js</span>
+            <span class="skill-tag">TanStack Query</span>
             <span class="skill-tag">HTML/CSS</span>
-            <span class="skill-tag">Flutter/dart</span>
+            <span class="skill-tag">Flutter/Dart</span>
           </div>
         </div>
         <div class="skill-category">
           <h3>Tools & Technologies</h3>
           <div class="skill-tags">
             <span class="skill-tag">Git</span>
+            <span class="skill-tag">Vercel</span>
             <span class="skill-tag">AWS</span>
             <span class="skill-tag">Google Cloud/Firebase</span>
             <span class="skill-tag">Cursor AI</span>
@@ -106,9 +108,10 @@ layout: default
       <h2 class="text-center mb-4">Professional Experience</h2>
       <div class="experience-grid">
         <div class="experience-category">
-          <h3>Contract Mobile Developer</h3>
+          <h3>Contract Developer — Grapevine</h3>
           <span class="company">Grapevine (Contract)</span>
           <span class="duration">May 2025 – Present</span>
+          <p class="experience-preview-note">Flutter mobile app and a Next.js web app on Vercel (React, TanStack Query, layered API + Firestore via Admin SDK).</p>
         </div>
       </div>
       <div class="text-center mt-4">

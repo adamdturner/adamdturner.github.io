@@ -16,22 +16,28 @@ permalink: /experience/
       <div class="timeline-marker"></div>
       <div class="timeline-content">
         <div class="timeline-header">
-          <h3>Contract Mobile Developer — Grapevine</h3>
+          <h3>Contract Developer — Grapevine</h3>
           <span class="company">Grapevine (Contract)</span>
           <span class="duration">May 2025 – Present</span>
         </div>
         <div class="timeline-description">
-          <p>Building a cross‑platform referral and rewards app using Flutter and Firebase. Implementing authentication, data models, referral flows, and vendor payout workflows.</p>
+          <p>Building Grapevine’s cross‑platform referral and rewards experience: a Flutter mobile app and a Next.js web app deployed on <strong>Vercel</strong>, backed by Firebase (Auth, Firestore, Cloud Functions). The web stack keeps a clear API boundary—React and TanStack Query on the client, Next.js routes and use cases on the server, with Firestore access isolated in a repository layer using the Firebase Admin SDK.</p>
           <ul>
-            <li>Flutter UI development and state management</li>
-            <li>Firebase Auth, Firestore data modeling, and Cloud Functions</li>
-            <li>Referral code generation, deep‑link flows, and purchase tracking</li>
+            <li>Flutter UI, state management, and mobile flows</li>
+            <li>Next.js web app: React, TanStack Query, authenticated API client, layered use cases and repositories</li>
+            <li>Production deployment on Vercel; Firestore only from server-side repositories</li>
+            <li>Firebase Auth, Firestore modeling, Cloud Functions, referral codes, deep links, and purchase tracking</li>
           </ul>
           <div class="technologies">
             <span class="tech-tag">Flutter</span>
             <span class="tech-tag">Dart</span>
+            <span class="tech-tag">Next.js</span>
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">TanStack Query</span>
+            <span class="tech-tag">Vercel</span>
             <span class="tech-tag">Firebase</span>
             <span class="tech-tag">Firestore</span>
+            <span class="tech-tag">Admin SDK</span>
             <span class="tech-tag">Cloud Functions</span>
           </div>
         </div>

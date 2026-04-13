@@ -1,5 +1,6 @@
 ---
 layout: project
+hide_from_projects_page: true
 title: "Light-Following Car"
 date: 2023-01-01 09:00:00 -0600
 description: "An Arduino C++ sophomore project: a car that detects and follows light sources."

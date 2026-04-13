@@ -1,5 +1,6 @@
 ---
 layout: project
+hide_from_projects_page: true
 title: "Laser Tag Class Project"
 date: 2024-08-01 13:00:00 -0600
 description: "Laser Tag development from scratch."

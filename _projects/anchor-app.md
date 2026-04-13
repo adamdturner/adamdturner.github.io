@@ -1,5 +1,6 @@
 ---
 layout: project
+hide_from_projects_page: true
 title: "Anchor App"
 date: 2025-08-01 09:00:00 -0600
 description: "A personal mobile app project called Anchor, focused on productivity and goal tracking."
