@@ -2,20 +2,27 @@
 layout: project
 title: "Grapevine App"
 date: 2025-05-01 10:00:00 -0600
-description: "Referral and rewards platform: Flutter mobile app plus a Next.js web app on Vercel, with a layered stack (React, TanStack Query, API routes, use cases, Firestore via Admin SDK)."
+description: "Mobile app (Flutter): iOS and Android referral and rewards experience tied to Firebase. Website (Next.js on Vercel): grapevinecodes.com—React, TanStack Query, layered API routes, use cases, and Firestore via Admin SDK."
 duration: "5 months"
 role: "Contract Developer"
 status: "Ongoing"
 featured: true
 image: "/assets/images/projects/grapevine-app.jpg"
+live_url: "https://www.grapevinecodes.com"
 technologies: ["Flutter", "Dart", "Next.js", "React", "TanStack Query", "Vercel", "Firebase", "Cloud Firestore", "Firebase Auth", "Firebase Admin SDK", "Cloud Functions"]
 ---
 
 ## Overview
 
-Grapevine is a cross-platform product: a **Flutter** mobile application and a **Next.js** web application, both tied to the same Firebase backend. It is designed to allow users to tell their friends about products and services they buy. People are already doing this everyday, so Grapevine steps in to reward people for telling each other about the stuff they own. When someone scans their friend's Grapevine referral code, they are taken immediately to a checkout page to buy the item. Upon purchase, the one who referred the item gets a cash reward directly from the vendor. Vendors don't have to pay for advertising upfront, they only pay people when a purchase is made.
+Grapevine rewards people for telling friends about products they actually use. The product idea is the same across clients: when someone uses a friend’s Grapevine referral, they can move straight into checkout; on purchase, the referrer earns a reward from the vendor, who only pays when a sale happens.
 
-The **web app** is deployed on **Vercel**. The UI layer (React components) does not access the database directly. Feature hooks use **TanStack Query** for server state; a shared HTTP client (`apiFetch`) injects auth tokens and calls **Next.js API routes**, which enforce the API boundary. **Use cases** hold validation and business rules; **repositories** are the only layer that talk to **Cloud Firestore**, using the **Firebase Admin SDK** on the server.
+### Mobile app
+
+The **Flutter** app is the on-the-go experience for iOS and Android—referral codes, account and vendor flows, and the same Firebase-backed data model as the web client (Auth, Firestore, Cloud Functions). I focus on mobile UI, state management, and integrating with the shared backend.
+
+### Website
+
+The **Next.js** site is deployed on **Vercel** at **[grapevinecodes.com](https://www.grapevinecodes.com)**. It complements the app with a full web client: **React** components never touch the database directly; **TanStack Query** drives server state; a shared HTTP client (`apiFetch`) injects auth tokens into **Next.js API routes**, which act as the API boundary. **Use cases** hold validation and business rules; **repositories** are the only layer that talk to **Cloud Firestore**, using the **Firebase Admin SDK** on the server.
 
 ```
 │  UI Layer (React Components)        │  ← Never touches database
@@ -35,8 +42,8 @@ The **web app** is deployed on **Vercel**. The UI layer (React components) does 
 
 ## Highlights
 
-- Cross-platform mobile app for iOS and Android (Flutter)
-- Web app on Vercel: React, TanStack Query, Next.js API routes, layered use cases and repositories
+- **Mobile:** Cross-platform iOS and Android app (Flutter)—referral flows and Firebase integration
+- **Website:** [grapevinecodes.com](https://www.grapevinecodes.com) on Vercel—React, TanStack Query, Next.js API routes, layered use cases and repositories
 - Authentication with Firebase Auth (email/password, OAuth-ready)
 - Real-time data with Cloud Firestore; server-side access via Admin SDK in repositories
 - Cloud Functions for background tasks and integrations
